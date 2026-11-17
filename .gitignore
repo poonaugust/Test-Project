@@ -1,0 +1,33 @@
+# .NET
+bin/
+obj/
+out/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+TestResults/
+*.trx
+*.coverage
+
+# Node / Vue / Vite
+node_modules/
+dist/
+dist-ssr/
+*.local
+.vite/
+
+# Environment & Secrets
+.env
+.env.*.local
+appsettings.Local.json
+
+# IDE & OS
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
